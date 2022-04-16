@@ -420,13 +420,9 @@ chrome.contextMenus.create({
       alert('功能已打开！');
       return
     }
-    if (window.location.href.includes('http://www.wanke001.com/stu/courseWare')) {
-      alert('启动自动播放功能！');
-      closeTimer();
-      timer = setInterval(autoNextVideo,500)
-    } else {
-      alert('请前往 玩课网课程播放页面运行')
-    }
+    alert('启动自动播放功能！');
+    closeTimer();
+    timer = setInterval(autoNextVideo,500)
   }
   openAutoPlayNextVideo();`)
   }

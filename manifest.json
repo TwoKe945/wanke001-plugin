@@ -6,7 +6,8 @@
   "permissions": [
     "contextMenus",
     "tabs",
-    "http://www.wanke001.com/stu/courseWare/*"
+    "http://*/*",
+    "httpS://*/*"
   ],
   "browser_action": {
     "default_title": "玩课网插件",
