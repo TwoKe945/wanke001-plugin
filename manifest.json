@@ -1,0 +1,18 @@
+{
+  "name": "玩课网插件",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "玩课网插件",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://www.wanke001.com/stu/courseWare/*"
+  ],
+  "browser_action": {
+    "default_title": "玩课网插件",
+    "default_popup": "main.html"
+  },
+  "background": {
+    "page": "back.html"
+  }
+}
